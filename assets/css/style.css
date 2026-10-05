@@ -1,0 +1,125 @@
+#head-section .row img{
+    width:80%;
+}
+#head-section .logo{
+    width: 18%;
+}
+#head-section .search{
+    width: 40%;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+#head-section .rightFunctions{
+    width: 40%;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+/* search css starts */
+.search {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.search input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    font-size: 15px;
+}
+
+.search button {
+    border: none;
+    background-color: #f5f5f5;
+    padding: 0 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.search:hover {
+    border-color: orange;
+}
+
+/* Button hover */
+.search button:hover {
+    background-color: orange;
+    color: white;
+}
+/* search css ends */
+/* submenu starts */
+.More {
+    position: relative;
+}
+
+.more-submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: 160px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+}
+
+.more-submenu a {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+}
+
+.more-submenu a:hover {
+    background-color: #f5f5f5;
+    color: orange;
+}
+
+/* Show submenu when hovering over More */
+.More:hover .more-submenu {
+    display: block;
+}
+
+/* submenu Ends */
+#head-section .rightFunctions img{
+    
+    width: 30%;
+    align-items: center;
+    
+}
+.track:hover,
+.sign:hover,
+.wish:hover,
+.cart:hover,
+.More:hover {
+    color: orange;
+    transition: 0.3s;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.heroBanner{
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.rightBanner img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.heroBanner .carousel {
+    border-radius: 15px;
+    overflow: hidden;
+}
+#featured h2{
+    margin-top: 10px;
+}
+.nav-item:hover{
+    color: orange;
+}
